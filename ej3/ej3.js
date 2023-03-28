@@ -101,29 +101,6 @@ app.delete("/productos/id/:id", (req, res) => {
   })  
   
   
-
-
-
- 
-
-
-  // app.get("/myName", (req, res) => {
-  //   res.send("My name is " + req.query.name);
-  // });
-  // // localhost:3000/myName/?name=pedro
-  
-
-
-
-
-
-
-
-
-
-
-
-
 app.listen("8080", () => {
   console.log("Server started on port 8080 with cors() enabled");
 })
